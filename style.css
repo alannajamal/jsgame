@@ -2,20 +2,20 @@
     padding: 0;
     margin: 0;
 }
-#game{
+.game{
     width: 500px;
     height: 200px;
-    border: 1px solid palevioletred
+    border: 1px solid rgb(84, 20, 41);
 }
 #character{
     width: 20px;
     height: 50px;
-    background-color: bisque;
+    background-color: rgb(21, 198, 221);
     position: relative;
     top: 150px;
 }
 .animate{
-    animation: jump 500ms;
+    animation: jump 0.4s linear;
 }
 
 
@@ -32,7 +32,7 @@ background-color: crimson;
 position: relative;
 top: 130px;
 left: 480px;
-animation: block is infinite linear;
+animation: block 1s infinite linear;
 }
 @keyframes block{
     0%{left:480px;}
