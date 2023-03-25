@@ -14,3 +14,16 @@
     position: relative;
     top: 250px;
 }
+#block{
+    width: 20px;
+height: 20px;
+background-color: crimson;
+position: relative;
+top: 130px;
+left: 480px;
+animation: block is infinite linear;
+}
+@keyframes block{
+    0%{left:480px;}
+    100%{left:480px;}
+}
