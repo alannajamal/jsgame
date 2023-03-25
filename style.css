@@ -14,7 +14,7 @@
     position: relative;
     top: 250px;
 }
-.animate{}
+.animate{
     animation: jump 500ms;
 }
 
