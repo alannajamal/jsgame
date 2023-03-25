@@ -7,3 +7,10 @@
     height: 300px;
     border: 1px solid palevioletred
 }
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: bisque;
+    position: relative;
+    top: 250px;
+}
