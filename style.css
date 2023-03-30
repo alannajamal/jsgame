@@ -6,14 +6,15 @@
 .game{
     width: 500px;
     height: 200px;
+    background-color: greenyellow;
     border: 1px solid rgb(84, 20, 41);
     margin: auto;
 }
 #character{
-    width: 20px;
+    width: 40px;
     height: 50px;
     background-color: rgb(21, 198, 221);
-    position:relative;
+    position: relative;
     top: 150px;
 }
 .animate{
@@ -30,7 +31,7 @@
 #block{
  width: 20px;
 height: 20px;
-background-color: crimson;
+background-color: black;
 position: relative;
 top: 130px;
 left: 500px;
